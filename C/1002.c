@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <math.h>
+#define PI 3.14159;
 
 int main (void) {
-    double R;
-    double pi = 3.14159;
-    scanf("%lf", &R);
-    double A = pi * (R * R);
-    printf("A=%.4f\n", A);
+    double raio, area;
+    scanf("%lf", &raio);
+    area = PI * pow(raio, 2.0);
+    printf("A=%.4lf\n", area);
     return 0;
 }

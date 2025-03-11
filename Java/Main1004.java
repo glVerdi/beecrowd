@@ -9,5 +9,6 @@ public class Main1004 {
         B = sc.nextInt();
         prod = A * B;
         System.out.println("PROD = " + prod);
+        sc.close();
     }
 }

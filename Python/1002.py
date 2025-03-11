@@ -1,4 +1,4 @@
 pi = 3.14159
-R = float(input())
-A = pi * (R * R)
-print(f"A={A:.4f}")
+raio = float(input())
+area = pi * (raio * raio)
+print(f"A={area:.4f}")
