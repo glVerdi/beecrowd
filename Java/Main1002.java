@@ -8,7 +8,7 @@ public class Main1002 {
         double pi = 3.14159;
         double raio, area;
         raio = sc.nextDouble();
-        area = pi * pow(raio, 2.0);
+        area = pi * Math.pow(raio, 2.0);
         System.out.printf("A=%.4f\n", area);
         sc.close();
     }
