@@ -9,5 +9,6 @@ public class Main1002 {
         R = sc.nextDouble();
         double A = pi * (R * R);
         System.out.printf("A=%.4f\n", A);
+        sc.close();
     }
 }
