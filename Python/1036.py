@@ -1,7 +1,5 @@
 import math
-A = float(input())
-B = float(input())
-C = float(input())
+A, B, C = map(float, inpu().split())
 if A == 0.0:
     print("Impossivel calcular")
 elif (math.pow(B, 2.0) - 4.0 * A * C) < 0:
