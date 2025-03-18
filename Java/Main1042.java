@@ -10,12 +10,12 @@ public class Main1042 {
         c = sc.nextInt();
         if (a <= b && a <= c) {
             menor = a;
-            if (a <= c) {
+            if (b <= c) {
                 medio = b;
                 maior = c;
             } else {
-                medio = b;
-                maior = a;
+                medio = c;
+                maior = b;
             }
         } else if (b <= a && b <= c) {
             menor = b;
